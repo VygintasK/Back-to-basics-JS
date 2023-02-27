@@ -1,40 +1,62 @@
-*,*::before,*::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
+
 /* dont remember how to write border box find it in java script projects and confirm later */
 
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: lightgray;
-    margin: 0px;
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: lightgray;
+  margin: 0px;
 }
-.content{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.jsLogo{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f0db4f;
-    width: 90%;
-    height: 80vh;
-    display: flex;
-    justify-content:flex-end;
-    align-items:flex-end;
-    margin-top: 5vh;
-    padding:20px;
 
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.jsLogo p{
-    color: #323330;
-    font-size: 4500%;
-    margin-right: 5vw;
-    margin-bottom: -50px;
-    font-weight: 600;
+
+.jsLogo {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0db4f;
+  width: 90%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 5vh;
+  padding: 20px;
 }
-@media only screen and (max-width: 960px) {
-    .jsLogo p {
-      font-size: 72vw;
-    }
+
+.jsLogo p {
+  color: #323330;
+  font-size: 500px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: -90px;
+  
+}
+
+.Before-React {
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 1000px) {
+  .jsLogo {
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
+
+  .jsLogo p {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jsLogo p {
+    font-size: 60vw;
+  }
+}
