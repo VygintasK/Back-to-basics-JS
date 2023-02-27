@@ -1,3 +1,9 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+/* dont remember how to write border box find it in java script projects and confirm later */
+
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightgray;

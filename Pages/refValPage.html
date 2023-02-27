@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>References and Values</title>
+</head>
+<body>
+    <h1>References and Values</h1>
+    <ol>
+        <li>
+            <p>Variables can stores Value or Reference to a value</p>
+            <p>Values - primitives - str, number, boolean, null... </p>
+            <p>References - complex - array, object...</p>
+            <img src="../img/ValRefExample.png" alt="value reference example"> 
+        </li>
+        <li>
+            <p>Reference points to same value somewhere. If you make copy of reference and change its value, it will change value for all references below change point. Because all references point to same value.</p>
+            <img src="../img/referenceCopy.png" alt="reference copy"> 
+            <p>But referenced values can be copied in many ways and created new array preserving original reference (common in React)</p>
+            <img src="../img/referenceCopyNewArr.png" alt="reference copy new arr">
+        </li>
+    </ol>
+    <script type="module" src="./refValPage.js"></script>
+</body>
+</html>
