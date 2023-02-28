@@ -1,7 +1,8 @@
+import createElement from '../tools/elementCreator.js'
+
 const scope = () => {
 
-    let scopeDiv = document.createElement('div')
-    scopeDiv.classList.add('Scope')
+    let scopeDiv = createElement('div','Scope')
     scopeDiv.innerHTML = `
         <h1>4 types of scopes:</h1>
         <ul>
@@ -80,12 +81,12 @@ export default scope
 // console.log("global scope:",a,b)        // -- can not access function scope to get b
 
 
-// -- example Function scope --
-function test1() {                      // -- function scope
-    const b = 1
-    if (true) {
-        var c = 2
-    }
-    console.log("function scope:",b,c)  // -- can access module scope and function scope to get a,b 
-}
-test1()
+// // -- example Function scope --
+// function test1() {                      // -- function scope
+//     const b = 1
+//     if (true) {
+//         var c = 2
+//     }
+//     console.log("function scope:",b,c)  // -- can access module scope and function scope to get a,b 
+// }
+// test1()
