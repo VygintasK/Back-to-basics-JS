@@ -1,5 +1,5 @@
-import initNav from '../Components/nav.js'
-import fetchFunc from '../Components/fetch.js'
+import initNav from '../components/nav.js'
+import fetchFunc from '../components/fetch.js'
 
 initNav()
 

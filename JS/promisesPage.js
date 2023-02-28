@@ -1,5 +1,5 @@
-import initNav from '../Components/nav.js'
-import promisesFunc from'../Components/promises.js'
+import initNav from '../components/nav.js'
+import promisesFunc from'../components/promises.js'
 
 initNav()
 

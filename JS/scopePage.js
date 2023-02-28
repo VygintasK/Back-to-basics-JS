@@ -1,4 +1,4 @@
-import initNav from '../Components/nav.js'
-import scope from '../Components/scope.js'
+import initNav from '../components/nav.js'
+import scope from '../components/scope.js'
 initNav()
 scope()
