@@ -17,12 +17,13 @@ nav.innerHTML = `
     <li id="Fetch"><a href="./testPage.html">Test</a></li>
 `
 document.body.prepend(nav)
-console.log(document.URL)
-console.log(document.location.origin)
-console.log(document.location.pathname)
-}
 
+
+
+}
 export default initNav
+// console.log(global) // this is for checking global var in scoping page
+
 
 // /   = Root directory
 // .   = This location
@@ -30,4 +31,10 @@ export default initNav
 // ./  = Current directory
 // ../ = Parent of current directory
 // ../../ = Two directories backwards
-console.log(document)
+
+// console.dir(document.location.pathname)
+// console.log(document.URL)
+// console.log(document.location.origin)
+// console.log(document.location.pathname)
+
+

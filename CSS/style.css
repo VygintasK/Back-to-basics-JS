@@ -23,7 +23,7 @@ body {
   margin-right: auto;
   background-color: #f0db4f;
   width: 90%;
-  min-height: 80vh;
+  min-height: 75vh;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

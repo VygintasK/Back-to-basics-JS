@@ -1,5 +1,5 @@
-import initNav from '../Component/nav.js'
-import refVal from '../Component/refVal.js'
+import initNav from '../Components/nav.js'
+import refVal from '../Components/refVal.js'
 
 initNav()
 refVal()

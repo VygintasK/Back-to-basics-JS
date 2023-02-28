@@ -1,4 +1,4 @@
-import initHeader from './Component/nav.js'
+import initHeader from '../Components/nav.js'
 
 initHeader()
 

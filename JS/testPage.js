@@ -1,3 +1,3 @@
-import initNav from '../Component/nav.js'
-
+import initNav from '../Components/nav.js'
 initNav()
+

@@ -1,5 +1,5 @@
-import initNav from '../Component/nav.js'
-import functionsFunc from '../Component/functions.js'
+import initNav from '../Components/nav.js'
+import functionsFunc from '../Components/functions.js'
 
 initNav()
 

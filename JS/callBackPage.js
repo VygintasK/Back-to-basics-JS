@@ -1,5 +1,5 @@
-import initNav from '../Component/nav.js'
-import callBackFunc from '../Component/callBack.js'
+import initNav from '../components/nav.js'
+import callBackFunc from '../components/callBack.js'
 
 
 initNav()

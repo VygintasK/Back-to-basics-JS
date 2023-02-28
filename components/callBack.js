@@ -101,7 +101,16 @@ const callBackFunc = () => {
 
 
 
-
+    // const a = 2
+    // let b = 4
+    // a=8
+    // b=8
+    // console.log(a,b)
+    
+    // let c=[1,2,3]
+    // const d={num1:'1',num2:'2'}
+    // d=3
+    // console.log(c,d)
 
 
 }
