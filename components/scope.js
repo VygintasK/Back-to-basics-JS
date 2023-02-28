@@ -14,7 +14,7 @@ const scope = () => {
                         <h4>Example:</h4>
                         <p>Function scope can access local "a" and global "b"</p>
                         <p>BUT global scope can NOT access b inside function scope</p>
-                        <img src="/img/scopeImg/globalScope1.png"></img>
+                        <img src="./img/scopeImg/globalScope1.png"></img>
                         <br></br>
                     </li>
                     <li>
@@ -22,16 +22,16 @@ const scope = () => {
                         <p>Modular scrips protect from bleeding variable access into children files.</p>
                         <h4>Example:</h4>
                         <p>Calling "console.log(global)" inside of "components/nav.js"</p>
-                        <img src="/img/scopeImg/global21.png"></img>
+                        <img src="./img/scopeImg/global21.png"></img>
                         <p>"nav.js" is imported into "js/scope.js"</p>
-                        <img src="/img/scopeImg/global22.png"></img>
+                        <img src="./img/scopeImg/global22.png"></img>
                         <p>"scope.js" happens to be script for "scopePage.html"</p>
                         <p>"scopePage.html" also using GLOBAL NON MODULAR script "global/nonModuleScope.js"</p>
-                        <img src="/img/scopeImg/global23.png"></img>
+                        <img src="./img/scopeImg/global23.png"></img>
                         <p>"nonModuleScope.js" has variable "global"</p>
-                        <img src="/img/scopeImg/global24.png"></img>
+                        <img src="./img/scopeImg/global24.png"></img>
                         <p>You get print out of variable that doesn't exist in NAVIGATION but you get this only by accessing page that uses global non modular script</p>
-                        <img src="/img/scopeImg/global25.png"></img>
+                        <img src="./img/scopeImg/global25.png"></img>
                         <p><strong>To avoid confusion - use module scripts</strong></p>
                     </li>              
                 </ul>
@@ -43,19 +43,19 @@ const scope = () => {
             <li>
                 <h3>Module scope</h3>
                 <p>Accessible inside that JS module file</p>
-                <img src="/img/scopeImg/module.png"></img>
+                <img src="./img/scopeImg/module.png"></img>
             </li>
             <li>
                 <h3>Block scope</h3>
                 <p>Pretty much everything separated by { }</p>
                 <p>Global scope can not access "b" inside block</p>
-                <img src="/img/scopeImg/block.png"></img>
+                <img src="./img/scopeImg/block.png"></img>
             </li>
             <li>
                 <h3>Functional scope</h3>
                 <p>Pretty much everything separated by function{ } and is only relevant when you use var ("let" and "const" are OK)</p>
-                <img src="/img/scopeImg/function1.png"></img>
-                <img src="/img/scopeImg/function2.png"></img>
+                <img src="./img/scopeImg/function1.png"></img>
+                <img src="./img/scopeImg/function2.png"></img>
             </li>
         </ul>
     `
