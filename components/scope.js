@@ -14,7 +14,7 @@ const scope = () => {
                         <h4>Example:</h4>
                         <p>Function scope can access local "a" and global "b"</p>
                         <p>BUT global scope can NOT access b inside function scope</p>
-                        <img src="../img/globalScope1.png"></img>
+                        <img src="../img/scopeImg/globalScope1.png"></img>
                         <br></br>
                     </li>
                     <li>
