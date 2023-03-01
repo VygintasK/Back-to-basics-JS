@@ -5,7 +5,6 @@ const callBackFunc = () => {
     callbackDiv.innerHTML = `
         <h1>Call Back page</h1>
         <h2>Function passing</h2>
-        
         <ul>
             <li>
                 <p>Function is like object, you can pass it to variable and make variable behave like function </p>
@@ -43,7 +42,10 @@ const callBackFunc = () => {
                 <img src="./img/callback/callbackMore1.png" alt="callback more examples 1">
                 <img src="./img/callback/callbackMore2.png" alt="callback more examples 2">
             </li>
-            <h1>callback function and stacking</h1>
+        </ul>
+        
+        <h2>callback function and stacking</h2>
+        <ul>
             <li>
                 <p>"projectCallback" will not wait for delayed jobs and will continue other jobs. Delayed job will be printed when its done.</p>
                 <h4>Example 4:</h4>
