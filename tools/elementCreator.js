@@ -1,7 +1,14 @@
 
 const createElement = function (elementName, className) {
+
     let element = document.createElement(elementName)
-    element.classList.add(className)
+
+    if ((typeof className) === 'object') {
+        element.classList.add(...(Object.values(className)))
+    } else {
+        element.classList.add(className)
+    }
+
     return element
 }
 

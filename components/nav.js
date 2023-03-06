@@ -7,7 +7,11 @@ nav.innerHTML = `
     <li id="Home"><a href="./index.html">Home</a></li>
 
     <li id="RefVal"><a href="./refValPage.html">Ref / Val</a></li>
+    <li id="RefVal"><a href="./data.html">Data</a></li>
+    <li id="RefVal"><a href="./switch.html">Switch</a></li>
+
     <li id="RefVal"><a href="./scopePage.html">Scope</a></li>
+    <li id="RefVal"><a href="./logic.html">Logic</a></li>
 
 
     <li id="Functions"><a href="./functionsPage.html">Functions</a></li>
