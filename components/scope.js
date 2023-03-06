@@ -59,7 +59,6 @@ const scope = () => {
             </li>
         </ul>
     `
-    document.body.append(scopeDiv)
 }
 export default scope
 

@@ -1,7 +1,6 @@
 import createElement from '../tools/elementCreator.js'
 const callBackFunc = () => {
-    let callbackDiv = createElement('Div','Callback')
-    document.body.append(callbackDiv)
+    const callbackDiv = createElement('Div','Callback')
     callbackDiv.innerHTML = `
         <h1>Call Back page</h1>
         <h2>Function passing</h2>

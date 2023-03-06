@@ -1,7 +1,7 @@
 import createElement from "../tools/elementCreator.js"
+
 const dataComp = () => {
-    let identifyDiv = createElement('div', ['data', 'component'])
-    document.body.append(identifyDiv)
+    const identifyDiv = createElement('div', ['data', 'component'])
     identifyDiv.innerHTML = `
         <h1>Identify page:</h1>
         <h2>Data types:</h2>

@@ -17,9 +17,7 @@ const switchComp = () => {
         <li>In this case i replace initial value of INPUT to different value  so button would toggle through colors of each case every time button is clicked</li>
     </ol>
     `
-    document.body.append(switchDiv)
-
-
+    
     let lightButton = document.querySelector(".changeBackgroundColor")
     lightButton.style.padding = '8px 15px'
     let input = 'dim'
@@ -50,66 +48,3 @@ const switchComp = () => {
 
 }
 export default switchComp
-
-
-
-// switch examples
-
-// lightButton
-// onclick=buttonLight
-
-
-
-
-
-
-// let color = 'red'
-// let result
-// switch (color) {
-//     case 'red':
-//         result = 'STOP!'
-//     break
-//     case 'yellow':
-//         result = 'get ready'
-//     break
-//     case 'green':
-//         result = 'can walk'
-//     break
-//     default:
-//         result = 'wrong input';
-//     break
-// }
-// console.log(result)
-
-
-
-
-// function rateGrade(grade) {
-//     let gradeInWord = '';
-//     switch (grade) {
-//         case 1:
-//         case 2:
-//             gradeInWord = 'Labai blogai';
-//             break;
-//         case 3:
-//         case 4:
-//             gradeInWord = 'Blogai';
-//             break;
-//         case 5:
-//         case 6:
-//             gradeInWord = 'Vidutiniškai';
-//             break;
-//         case 7:
-//         case 8:
-//             gradeInWord = 'Gerai';
-//             break;
-//         case 9:
-//         case 10:
-//             gradeInWord = 'Labai gerai';
-//             break;
-//         default:
-//             gradeInWord = 'Neteisingai įvestas balas. Jis turėtų būti nuo 1 iki 5';
-//     }
-//     return gradeInWord
-// }
-// console.log(rateGrade(5))

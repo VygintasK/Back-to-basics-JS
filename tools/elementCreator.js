@@ -8,7 +8,7 @@ const createElement = function (elementName, className) {
     } else {
         element.classList.add(className)
     }
-
+    document.body.append(element)
     return element
 }
 
