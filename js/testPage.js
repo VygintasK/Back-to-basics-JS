@@ -1,3 +1,4 @@
 import initNav from '../components/nav.js'
-initNav()
+import myElementCreator from '../tools/myElementCreator.js'//(elementType, className, body or className)
 
+initNav()

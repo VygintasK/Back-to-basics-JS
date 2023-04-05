@@ -1,6 +1,21 @@
 .road-map{
     width: 70%;
-    position:absolute;
+    /* position:absolute; */
     top: 230px;
     right: 10px;
+}
+.lists-wrap{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.lists-wrap{
+    width: 100%;
+}
+.lists-wrap li{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid;
 }
