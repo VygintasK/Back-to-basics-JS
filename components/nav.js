@@ -10,7 +10,7 @@ nav.innerHTML = `
     <li id="refVal"><a href="./refValPage.html">Ref / Val</a></li>
     <li id="data"><a href="./data.html">Data</a></li>
     <li id="switch"><a href="./switch.html">Switch</a></li>
-    <li id="cycle"><a href="./cycle.html">Cycle</a></li>
+    <li id="cycle"><a href="./loop.html">Loop</a></li>
 
     <li id="scope"><a href="./scopePage.html">Scope</a></li>
     <li id="logic"><a href="./logic.html">Logic</a></li>

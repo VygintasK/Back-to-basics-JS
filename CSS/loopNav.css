@@ -1,0 +1,17 @@
+.loop-nav{
+  display: flex;
+  justify-content:space-evenly;
+  list-style-type: none;
+}
+
+.loop-nav li{
+  font-weight: bold;
+  background-color: #f0db4f;
+  box-shadow: 0px 0.5px 3px -1px grey;
+  padding: 10px 20px;
+  border-radius: 10px;
+  user-select: none;
+}
+.loop-nav li:hover{
+  cursor: pointer;
+}

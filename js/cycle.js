@@ -1,6 +1,12 @@
+import myElementCreator from '../tools/myElementCreator.js'
+
 import initNav from '../components/nav.js'
-import cycleComp from '../components/cycleComp.js'
+import loopNav from '../components/loopNavComp.js'
 
 initNav()
-cycleComp()
+loopNav()
+
+
+
+
 

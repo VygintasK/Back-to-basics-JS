@@ -1,7 +1,7 @@
-import createElement from "../tools/elementCreator.js";
+import myElementCreator from "../tools/myElementCreator.js";
 
-let cycleComp = () => {
-    let cycleDiv = createElement('div', ['cycleComp', 'component'])
+let loopComp = () => {
+    let cycleDiv = myElementCreator('div', ['loopComp', 'component'],'renderedContent')
     cycleDiv.innerHTML = `
         <h1>Cycle page</h1>
         <h2>For is the FATHER of all cycles</h2>
@@ -92,29 +92,29 @@ let cycleComp = () => {
 
 
 
-    function fizzBuzz() {
+    // function fizzBuzz() {
 
-        for (let i = 1; i <= 150; i++) {
+    //     for (let i = 1; i <= 150; i++) {
 
-            let fizz = i % 3 === 0
-            let buzz = i % 5 === 0
-            let biff = i % 7 === 0
-            let fuzz = i % 9 === 0
-            let bizz = i % 11 === 0
+    //         let fizz = i % 3 === 0
+    //         let buzz = i % 5 === 0
+    //         let biff = i % 7 === 0
+    //         let fuzz = i % 9 === 0
+    //         let bizz = i % 11 === 0
 
-            if (fizz && buzz && biff){ console.log(i,'fizz buzz biff')}
-            else if (fizz && buzz) { console.log(i,'fizz buzz')}
-            else if (fizz && biff){ console.log(i,'fizz biff')}
-            else if (biff && buzz){ console.log(i,'biff buzz')}
-            else if (fizz) { console.log(i,'fizz') }
-            else if (buzz) { console.log(i,'buzz') }
-            else if (fuzz) { console.log(i,'fuzz') }
-            else if (biff) { console.log(i,'biff')}
-            else if (bizz) { console.log(i,'bizz')}
-            else { console.log(i) }
-        }
-    }
-    fizzBuzz()
+    //         if (fizz && buzz && biff){ console.log(i,'fizz buzz biff')}
+    //         else if (fizz && buzz) { console.log(i,'fizz buzz')}
+    //         else if (fizz && biff){ console.log(i,'fizz biff')}
+    //         else if (biff && buzz){ console.log(i,'biff buzz')}
+    //         else if (fizz) { console.log(i,'fizz') }
+    //         else if (buzz) { console.log(i,'buzz') }
+    //         else if (fuzz) { console.log(i,'fuzz') }
+    //         else if (biff) { console.log(i,'biff')}
+    //         else if (bizz) { console.log(i,'bizz')}
+    //         else { console.log(i) }
+    //     }
+    // }
+    // fizzBuzz()
 
 
 
@@ -130,4 +130,4 @@ let cycleComp = () => {
 
 }
 
-export default cycleComp
+export default loopComp
